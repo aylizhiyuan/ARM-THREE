@@ -229,7 +229,7 @@ Change: 2018-07-22 16:37:10.833611360 +0800
 
 ### inode的大小
 
-<div align="center"><img src="assets/0417_WTD_Linux_F1.gif" width="450"/></div>
+<div align="center"><img src="pics/0417_WTD_Linux_F1.gif" width="450"/></div>
 
 inode 也会消耗硬盘空间，所以硬盘格式化的时候，操作系统自动将硬盘分成两个区域。一个是**数据区**，存放文件数据；另一个是 **inode 区**（inode table），存放 inode 所包含的信息。
 
@@ -321,7 +321,7 @@ ls -l /etc
 
 ## 3. 什么是硬链接与软链接
 
-<div align="center"><img src="assets/393890-20151128142803015-292063645.png" width="400"/></div>
+<div align="center"><img src="pics/393890-20151128142803015-292063645.png" width="400"/></div>
 
 ### 硬链接
 
@@ -1559,7 +1559,7 @@ x：显示所有程序，不以终端机来区分。
 
 ### 进程状态
 
-<div align="center"><img src="assets/76a49594323247f21c9b3a69945445ee.png" width=""/></div>
+<div align="center"><img src="pics/76a49594323247f21c9b3a69945445ee.png" width=""/></div>
 
 | 状态 | 说明                                                         |
 | ---- | ------------------------------------------------------------ |
@@ -1578,7 +1578,7 @@ x：显示所有程序，不以终端机来区分。
 - 得到 SIGCHLD 信号；
 - waitpid() 或者 wait() 调用会返回。
 
-<div align="center"><img src="assets/flow.png" width=""/></div>
+<div align="center"><img src="pics/flow.png" width=""/></div>
 
 其中子进程发送的 SIGCHLD 信号包含了子进程的信息，包含了进程 ID、进程状态、进程使用 CPU 的时间等。
 
@@ -1902,7 +1902,7 @@ mkfs
 - 编辑模式（Insert mode）：按下 "i" 等按键之后进入，可以对文本进行编辑；
 - 指令列模式（Bottom-line mode）：按下 ":" 按键之后进入，用于保存退出等操作。
 
-<div align="center"><img src="assets/5942debd-fc00-477a-b390-7c5692cc8070.jpg" width="400"/></div>
+<div align="center"><img src="pics/5942debd-fc00-477a-b390-7c5692cc8070.jpg" width="400"/></div>
 
 
 
